@@ -8,22 +8,56 @@
 
 /* Begin PBXBuildFile section */
 		6B5D550F296DDF35009C0E55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D550E296DDF35009C0E55 /* AppDelegate.swift */; };
-		6B5D5511296DDF35009C0E55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D5510296DDF35009C0E55 /* SceneDelegate.swift */; };
-		6B5D5513296DDF35009C0E55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D5512296DDF35009C0E55 /* ViewController.swift */; };
-		6B5D5516296DDF35009C0E55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B5D5514296DDF35009C0E55 /* Main.storyboard */; };
+		6B5D5513296DDF35009C0E55 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D5512296DDF35009C0E55 /* LoginViewController.swift */; };
 		6B5D5518296DDF37009C0E55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B5D5517296DDF37009C0E55 /* Assets.xcassets */; };
 		6B5D551B296DDF37009C0E55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B5D5519296DDF37009C0E55 /* LaunchScreen.storyboard */; };
+		6B5D5528296DE14E009C0E55 /* LoginScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D5527296DE14E009C0E55 /* LoginScreenView.swift */; };
+		6B5D552D296DE17A009C0E55 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D552C296DE17A009C0E55 /* BaseView.swift */; };
+		6B5D552F296DE1FF009C0E55 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D552E296DE1FF009C0E55 /* BaseCell.swift */; };
+		6B5D5531296DE23B009C0E55 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D5530296DE23B009C0E55 /* UIView+Extension.swift */; };
+		6B5D5533296DE6EA009C0E55 /* RegisterScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D5532296DE6EA009C0E55 /* RegisterScreenView.swift */; };
+		6B5D5535296DE738009C0E55 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D5534296DE738009C0E55 /* RegisterViewController.swift */; };
+		6B5D5537296DE899009C0E55 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D5536296DE899009C0E55 /* HomeViewController.swift */; };
+		6B5D5539296DE8E7009C0E55 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D5538296DE8E7009C0E55 /* HomeScreenView.swift */; };
+		6B5D553B296DE9F5009C0E55 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D553A296DE9F5009C0E55 /* ScheduleViewController.swift */; };
+		6B5D553D296EF086009C0E55 /* ScheduleScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D553C296EF086009C0E55 /* ScheduleScreenView.swift */; };
+		6B5D553F296EF0EC009C0E55 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D553E296EF0EC009C0E55 /* User.swift */; };
+		6B5D5541296EF14C009C0E55 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D5540296EF14C009C0E55 /* Address.swift */; };
+		6B5D5543296EF151009C0E55 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D5542296EF151009C0E55 /* Login.swift */; };
+		6B5D5545296EF325009C0E55 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D5544296EF325009C0E55 /* Schedule.swift */; };
+		6B5D5547296EF822009C0E55 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D5546296EF822009C0E55 /* SuccessViewController.swift */; };
+		6B5D5549296EF891009C0E55 /* SuccessScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D5548296EF891009C0E55 /* SuccessScreenView.swift */; };
+		6B5D554B296F02FB009C0E55 /* ServiceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D554A296F02FB009C0E55 /* ServiceListViewController.swift */; };
+		6B5D554E296F1737009C0E55 /* ServiceListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D554D296F1737009C0E55 /* ServiceListCollectionViewCell.swift */; };
+		6B5D5550296F1972009C0E55 /* ServiceListScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D554F296F1972009C0E55 /* ServiceListScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6B5D550B296DDF35009C0E55 /* HouseKeeper2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseKeeper2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B5D550E296DDF35009C0E55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6B5D5510296DDF35009C0E55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6B5D5512296DDF35009C0E55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6B5D5515296DDF35009C0E55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B5D5512296DDF35009C0E55 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6B5D5517296DDF37009C0E55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B5D551A296DDF37009C0E55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B5D551C296DDF37009C0E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B5D5527296DE14E009C0E55 /* LoginScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenView.swift; sourceTree = "<group>"; };
+		6B5D552C296DE17A009C0E55 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		6B5D552E296DE1FF009C0E55 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		6B5D5530296DE23B009C0E55 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		6B5D5532296DE6EA009C0E55 /* RegisterScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreenView.swift; sourceTree = "<group>"; };
+		6B5D5534296DE738009C0E55 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		6B5D5536296DE899009C0E55 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6B5D5538296DE8E7009C0E55 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		6B5D553A296DE9F5009C0E55 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		6B5D553C296EF086009C0E55 /* ScheduleScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleScreenView.swift; sourceTree = "<group>"; };
+		6B5D553E296EF0EC009C0E55 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6B5D5540296EF14C009C0E55 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		6B5D5542296EF151009C0E55 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		6B5D5544296EF325009C0E55 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		6B5D5546296EF822009C0E55 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		6B5D5548296EF891009C0E55 /* SuccessScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessScreenView.swift; sourceTree = "<group>"; };
+		6B5D554A296F02FB009C0E55 /* ServiceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceListViewController.swift; sourceTree = "<group>"; };
+		6B5D554D296F1737009C0E55 /* ServiceListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceListCollectionViewCell.swift; sourceTree = "<group>"; };
+		6B5D554F296F1972009C0E55 /* ServiceListScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceListScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +90,88 @@
 		6B5D550D296DDF35009C0E55 /* HouseKeeper2 */ = {
 			isa = PBXGroup;
 			children = (
-				6B5D550E296DDF35009C0E55 /* AppDelegate.swift */,
-				6B5D5510296DDF35009C0E55 /* SceneDelegate.swift */,
-				6B5D5512296DDF35009C0E55 /* ViewController.swift */,
-				6B5D5514296DDF35009C0E55 /* Main.storyboard */,
-				6B5D5517296DDF37009C0E55 /* Assets.xcassets */,
-				6B5D5519296DDF37009C0E55 /* LaunchScreen.storyboard */,
+				6B5D5525296DE0FF009C0E55 /* Resources */,
+				6B5D5524296DE0FA009C0E55 /* ViewModel */,
+				6B5D5523296DE0F6009C0E55 /* Model */,
+				6B5D5522296DE0F1009C0E55 /* View */,
 				6B5D551C296DDF37009C0E55 /* Info.plist */,
 			);
 			path = HouseKeeper2;
+			sourceTree = "<group>";
+		};
+		6B5D5522296DE0F1009C0E55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B5D554C296F1709009C0E55 /* Cell */,
+				6B5D552B296DE167009C0E55 /* ResourceView */,
+				6B5D5526296DE106009C0E55 /* Controller */,
+				6B5D5527296DE14E009C0E55 /* LoginScreenView.swift */,
+				6B5D5532296DE6EA009C0E55 /* RegisterScreenView.swift */,
+				6B5D5538296DE8E7009C0E55 /* HomeScreenView.swift */,
+				6B5D553C296EF086009C0E55 /* ScheduleScreenView.swift */,
+				6B5D5548296EF891009C0E55 /* SuccessScreenView.swift */,
+				6B5D554F296F1972009C0E55 /* ServiceListScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B5D5523296DE0F6009C0E55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B5D553E296EF0EC009C0E55 /* User.swift */,
+				6B5D5540296EF14C009C0E55 /* Address.swift */,
+				6B5D5542296EF151009C0E55 /* Login.swift */,
+				6B5D5544296EF325009C0E55 /* Schedule.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B5D5524296DE0FA009C0E55 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B5D5525296DE0FF009C0E55 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B5D5517296DDF37009C0E55 /* Assets.xcassets */,
+				6B5D5519296DDF37009C0E55 /* LaunchScreen.storyboard */,
+				6B5D550E296DDF35009C0E55 /* AppDelegate.swift */,
+				6B5D5530296DE23B009C0E55 /* UIView+Extension.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6B5D5526296DE106009C0E55 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6B5D554A296F02FB009C0E55 /* ServiceListViewController.swift */,
+				6B5D5512296DDF35009C0E55 /* LoginViewController.swift */,
+				6B5D5534296DE738009C0E55 /* RegisterViewController.swift */,
+				6B5D5536296DE899009C0E55 /* HomeViewController.swift */,
+				6B5D553A296DE9F5009C0E55 /* ScheduleViewController.swift */,
+				6B5D5546296EF822009C0E55 /* SuccessViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6B5D552B296DE167009C0E55 /* ResourceView */ = {
+			isa = PBXGroup;
+			children = (
+				6B5D552C296DE17A009C0E55 /* BaseView.swift */,
+				6B5D552E296DE1FF009C0E55 /* BaseCell.swift */,
+			);
+			path = ResourceView;
+			sourceTree = "<group>";
+		};
+		6B5D554C296F1709009C0E55 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6B5D554D296F1737009C0E55 /* ServiceListCollectionViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +234,6 @@
 			files = (
 				6B5D551B296DDF37009C0E55 /* LaunchScreen.storyboard in Resources */,
 				6B5D5518296DDF37009C0E55 /* Assets.xcassets in Resources */,
-				6B5D5516296DDF35009C0E55 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +244,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B5D5513296DDF35009C0E55 /* ViewController.swift in Sources */,
+				6B5D553F296EF0EC009C0E55 /* User.swift in Sources */,
+				6B5D5531296DE23B009C0E55 /* UIView+Extension.swift in Sources */,
+				6B5D5547296EF822009C0E55 /* SuccessViewController.swift in Sources */,
+				6B5D5513296DDF35009C0E55 /* LoginViewController.swift in Sources */,
+				6B5D5528296DE14E009C0E55 /* LoginScreenView.swift in Sources */,
+				6B5D5535296DE738009C0E55 /* RegisterViewController.swift in Sources */,
 				6B5D550F296DDF35009C0E55 /* AppDelegate.swift in Sources */,
-				6B5D5511296DDF35009C0E55 /* SceneDelegate.swift in Sources */,
+				6B5D5545296EF325009C0E55 /* Schedule.swift in Sources */,
+				6B5D5543296EF151009C0E55 /* Login.swift in Sources */,
+				6B5D5541296EF14C009C0E55 /* Address.swift in Sources */,
+				6B5D554E296F1737009C0E55 /* ServiceListCollectionViewCell.swift in Sources */,
+				6B5D5550296F1972009C0E55 /* ServiceListScreenView.swift in Sources */,
+				6B5D5537296DE899009C0E55 /* HomeViewController.swift in Sources */,
+				6B5D552F296DE1FF009C0E55 /* BaseCell.swift in Sources */,
+				6B5D5539296DE8E7009C0E55 /* HomeScreenView.swift in Sources */,
+				6B5D5533296DE6EA009C0E55 /* RegisterScreenView.swift in Sources */,
+				6B5D554B296F02FB009C0E55 /* ServiceListViewController.swift in Sources */,
+				6B5D5549296EF891009C0E55 /* SuccessScreenView.swift in Sources */,
+				6B5D553B296DE9F5009C0E55 /* ScheduleViewController.swift in Sources */,
+				6B5D552D296DE17A009C0E55 /* BaseView.swift in Sources */,
+				6B5D553D296EF086009C0E55 /* ScheduleScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6B5D5514296DDF35009C0E55 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6B5D5515296DDF35009C0E55 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6B5D5519296DDF37009C0E55 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +408,6 @@
 				INFOPLIST_FILE = HouseKeeper2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +435,6 @@
 				INFOPLIST_FILE = HouseKeeper2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
